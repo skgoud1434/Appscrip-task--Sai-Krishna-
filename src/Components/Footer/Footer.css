@@ -1,0 +1,108 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    grid-template-columns: repeat(3,25%);
+}
+
+.child1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+p{
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    
+
+
+}
+.heading1{
+  
+    width: 201px;
+height: 24px;
+top: 79px;
+left: 128px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.heading2{
+  
+    width: 110px;
+height: 24px;
+top: 79px;
+left: 888px;
+gap: 0px;
+opacity: 0px;
+
+}
+.heading3{
+  
+    width: 134px;
+height: 30px;
+top: 373px;
+left: 128px;
+gap: 0px;
+opacity: 0px;
+
+}
+.heading4{
+
+    width: 112px;
+height: 24px;
+top: 373px;
+left: 504px;
+gap: 0px;
+opacity: 0px;
+
+}
+.heading5{
+
+    width: 98px;
+height: 24px;
+top: 373px;
+left: 888px;
+gap: 0px;
+opacity: 0px;
+
+}
+.Box{
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+}
+form{
+    display: flex;
+
+}
+.input{
+    width: 50%;
+    height: Fixed (47px)px;
+    padding: 14px 24px 14px 24px;
+    gap: 8px;
+    opacity: 0px;
+    
+    
+
+}
+ .button{
+    width: 15%;
+    color: white;
+    background-color: #000000;
+    height: Fixed (48px)px;
+    left: 400px;
+    gap: 0px;
+    cursor: pointer;
+    border-radius: 5px 0px 0px 0px;
+    border: 1.14px 0px 0px 0px;
+    opacity: 0.3px;
+    
+
+}
+.copyright{
+    text-align: center;
+}

@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+    
+  /* display: flex; */
+  padding: 20px;
+
+
+}
+
+*{
+  box-sizing: content-box;
 }
 
 .App-logo {
@@ -12,6 +20,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -34,5 +43,36 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.wholeContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* flex-wrap: wrap; */
+
+  
+
+}
+
+@media (max-width: 680px) {
+  .wholeContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      gap: 25px;
+  }
+}
+
+@media (max-width: 830px) {
+  .filter {
+      display: none;
+      /* flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      gap: 25px; */
   }
 }

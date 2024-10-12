@@ -1,0 +1,57 @@
+.card{
+    width: 300px;
+height: 462px;
+top: 652px;
+/* left: 412px; */
+
+
+
+
+}
+.heart {
+  
+    width: 24px;
+    height: 24px;
+   
+}
+
+.title{
+    font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+max-width: 100%;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.signIn{
+    font-family: Simplon Norm;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: left;
+color: #888792;
+margin-top: 0px;
+
+
+}
+.signInContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card img{
+    width: 300px;
+    height: 399px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
