@@ -7,9 +7,17 @@ export default function CardContainer() {
   const [data, setData] = useState([]);
 
   async function getDataFromApi() {
-    const res = await axios.get(`https://fakestoreapi.com/products`);
-    console.log(res.data);
-    setData(res.data);
+    try{
+      const res = await axios.get(`https://fakestoreapi.com/products`);
+      console.log(res.data);
+      setData(res.data);
+    }
+    catch(err){
+      console.log(err);
+      
+    }
+    
+   
   }
 
   useEffect(() => getDataFromApi(), []);
