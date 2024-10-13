@@ -17,10 +17,12 @@ import Google6 from "../Icons/FooterIcons/Group 136190.svg"
 
 export default function FullWidthGrid() {
   return (
+  
+
     <Box sx={{ flexGrow: 1 }} className="Box">
       <Grid container spacing={2}>
         <Grid size={{ xs: 12, md: 8, sm: 6 }}>
-        <p className='heading1'> Be the first to know</p>
+        <p className='heading1'> BE THE FIRST TO KNOW</p>
        <p>Sign up for updates from mettā muse.</p>
            <form>
            <input className="input" type ="text" placeholder='Enter your e-mail...'/> 
@@ -37,6 +39,9 @@ export default function FullWidthGrid() {
            <p>Currency</p>
            <p>Transactions will be completed in Euros and a currency reference is available on hover.</p>
         </Grid>
+
+        
+        
         <Grid size={{ xs: 12, md: 4 , sm: 6}}>
         <p className='heading3'>mettā muse</p>
            <p>About Us</p>

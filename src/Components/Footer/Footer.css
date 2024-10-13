@@ -19,6 +19,9 @@ p{
 
 
 }
+.border{
+    border-bottom: 2px solid white;
+}
 .heading1{
   
     width: 201px;

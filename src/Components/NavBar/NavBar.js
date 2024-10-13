@@ -19,7 +19,7 @@ export default function NavBar() {
     <div className='parentIcon'>
       <div className='icons'>
         <div className='left-section'>
-        <div className="toggle-button" onClick={toggleOptions}>
+      <div className="toggle-button" onClick={toggleOptions}>
             ☰
           </div>
           <img src={Logo} alt='Logo' />
